@@ -18,3 +18,8 @@ policy "enforce-mandatory-tags" {
   source = "./enforce-mandatory-tags.sentinel"
   enforcement_level = "advisory"
 }
+
+policy "limit-proposed-monthly-cost" {
+  source = "./limit-proposed-monthly-cost.sentinel"
+  enforcement_level = "advisory"
+}
